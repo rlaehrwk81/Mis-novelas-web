@@ -17,6 +17,11 @@ article {
     overflow: hidden;
     flex-shrink: 0;
     transition: 0.5s;
+    @media (max-width: 768px) {
+    article {
+        width: 80%;
+    }
+}
 }
 section {
     display: flex;
